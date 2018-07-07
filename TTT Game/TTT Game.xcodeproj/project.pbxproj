@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		943D54312047F9AE004017E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D54302047F9AE004017E5 /* AppDelegate.swift */; };
+		943D54332047F9AF004017E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D54322047F9AF004017E5 /* ViewController.swift */; };
+		943D54362047F9AF004017E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943D54342047F9AF004017E5 /* Main.storyboard */; };
+		943D54382047F9AF004017E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943D54372047F9AF004017E5 /* Assets.xcassets */; };
+		943D543B2047F9AF004017E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943D54392047F9AF004017E5 /* LaunchScreen.storyboard */; };
+		943D54462047F9AF004017E5 /* TTT_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D54452047F9AF004017E5 /* TTT_GameTests.swift */; };
+		943D54512047F9AF004017E5 /* TTT_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D54502047F9AF004017E5 /* TTT_GameUITests.swift */; };
+		943D545F2048044E004017E5 /* Grid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 943D545E2048044E004017E5 /* Grid.jpg */; };
+		943D546120480457004017E5 /* Cross.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 943D546020480457004017E5 /* Cross.jpg */; };
+		943D54632048045E004017E5 /* Nought.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 943D54622048045E004017E5 /* Nought.jpg */; };
+		943D5465204857B2004017E5 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943D5464204857B2004017E5 /* beep.mp3 */; };
+		94B4F38C204D422100B94C5D /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B4F38B204D422100B94C5D /* QuizViewController.swift */; };
+		94B4F38E204D44A300B94C5D /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B4F38D204D44A300B94C5D /* StartViewController.swift */; };
+		94C8639F205D723900200F5F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8639E205D723900200F5F /* CategoryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		943D54422047F9AF004017E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943D54252047F9AE004017E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943D542C2047F9AE004017E5;
+			remoteInfo = "TTT Game";
+		};
+		943D544D2047F9AF004017E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943D54252047F9AE004017E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943D542C2047F9AE004017E5;
+			remoteInfo = "TTT Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		943D542D2047F9AE004017E5 /* TTT Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TTT Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		943D54302047F9AE004017E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		943D54322047F9AF004017E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		943D54352047F9AF004017E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		943D54372047F9AF004017E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		943D543A2047F9AF004017E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		943D543C2047F9AF004017E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943D54412047F9AF004017E5 /* TTT GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TTT GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		943D54452047F9AF004017E5 /* TTT_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTT_GameTests.swift; sourceTree = "<group>"; };
+		943D54472047F9AF004017E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943D544C2047F9AF004017E5 /* TTT GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TTT GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		943D54502047F9AF004017E5 /* TTT_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTT_GameUITests.swift; sourceTree = "<group>"; };
+		943D54522047F9AF004017E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943D545E2048044E004017E5 /* Grid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grid.jpg; sourceTree = SOURCE_ROOT; };
+		943D546020480457004017E5 /* Cross.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cross.jpg; sourceTree = SOURCE_ROOT; };
+		943D54622048045E004017E5 /* Nought.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nought.jpg; sourceTree = SOURCE_ROOT; };
+		943D5464204857B2004017E5 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = SOURCE_ROOT; };
+		94B4F38B204D422100B94C5D /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		94B4F38D204D44A300B94C5D /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		94C8639E205D723900200F5F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		943D542A2047F9AE004017E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943D543E2047F9AF004017E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943D54492047F9AF004017E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		943D54242047F9AE004017E5 = {
+			isa = PBXGroup;
+			children = (
+				943D542F2047F9AE004017E5 /* TTT Game */,
+				943D54442047F9AF004017E5 /* TTT GameTests */,
+				943D544F2047F9AF004017E5 /* TTT GameUITests */,
+				943D542E2047F9AE004017E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		943D542E2047F9AE004017E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				943D542D2047F9AE004017E5 /* TTT Game.app */,
+				943D54412047F9AF004017E5 /* TTT GameTests.xctest */,
+				943D544C2047F9AF004017E5 /* TTT GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		943D542F2047F9AE004017E5 /* TTT Game */ = {
+			isa = PBXGroup;
+			children = (
+				943D5464204857B2004017E5 /* beep.mp3 */,
+				943D54622048045E004017E5 /* Nought.jpg */,
+				943D546020480457004017E5 /* Cross.jpg */,
+				943D545E2048044E004017E5 /* Grid.jpg */,
+				943D54302047F9AE004017E5 /* AppDelegate.swift */,
+				94B4F38D204D44A300B94C5D /* StartViewController.swift */,
+				94B4F38B204D422100B94C5D /* QuizViewController.swift */,
+				943D54322047F9AF004017E5 /* ViewController.swift */,
+				943D54342047F9AF004017E5 /* Main.storyboard */,
+				94C8639E205D723900200F5F /* CategoryViewController.swift */,
+				943D54372047F9AF004017E5 /* Assets.xcassets */,
+				943D54392047F9AF004017E5 /* LaunchScreen.storyboard */,
+				943D543C2047F9AF004017E5 /* Info.plist */,
+			);
+			path = "TTT Game";
+			sourceTree = "<group>";
+		};
+		943D54442047F9AF004017E5 /* TTT GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				943D54452047F9AF004017E5 /* TTT_GameTests.swift */,
+				943D54472047F9AF004017E5 /* Info.plist */,
+			);
+			path = "TTT GameTests";
+			sourceTree = "<group>";
+		};
+		943D544F2047F9AF004017E5 /* TTT GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				943D54502047F9AF004017E5 /* TTT_GameUITests.swift */,
+				943D54522047F9AF004017E5 /* Info.plist */,
+			);
+			path = "TTT GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		943D542C2047F9AE004017E5 /* TTT Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943D54552047F9AF004017E5 /* Build configuration list for PBXNativeTarget "TTT Game" */;
+			buildPhases = (
+				943D54292047F9AE004017E5 /* Sources */,
+				943D542A2047F9AE004017E5 /* Frameworks */,
+				943D542B2047F9AE004017E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TTT Game";
+			productName = "TTT Game";
+			productReference = 943D542D2047F9AE004017E5 /* TTT Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		943D54402047F9AF004017E5 /* TTT GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943D54582047F9AF004017E5 /* Build configuration list for PBXNativeTarget "TTT GameTests" */;
+			buildPhases = (
+				943D543D2047F9AF004017E5 /* Sources */,
+				943D543E2047F9AF004017E5 /* Frameworks */,
+				943D543F2047F9AF004017E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943D54432047F9AF004017E5 /* PBXTargetDependency */,
+			);
+			name = "TTT GameTests";
+			productName = "TTT GameTests";
+			productReference = 943D54412047F9AF004017E5 /* TTT GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		943D544B2047F9AF004017E5 /* TTT GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943D545B2047F9AF004017E5 /* Build configuration list for PBXNativeTarget "TTT GameUITests" */;
+			buildPhases = (
+				943D54482047F9AF004017E5 /* Sources */,
+				943D54492047F9AF004017E5 /* Frameworks */,
+				943D544A2047F9AF004017E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943D544E2047F9AF004017E5 /* PBXTargetDependency */,
+			);
+			name = "TTT GameUITests";
+			productName = "TTT GameUITests";
+			productReference = 943D544C2047F9AF004017E5 /* TTT GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		943D54252047F9AE004017E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ryan Lewis";
+				TargetAttributes = {
+					943D542C2047F9AE004017E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					943D54402047F9AF004017E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 943D542C2047F9AE004017E5;
+					};
+					943D544B2047F9AF004017E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 943D542C2047F9AE004017E5;
+					};
+				};
+			};
+			buildConfigurationList = 943D54282047F9AE004017E5 /* Build configuration list for PBXProject "TTT Game" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 943D54242047F9AE004017E5;
+			productRefGroup = 943D542E2047F9AE004017E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				943D542C2047F9AE004017E5 /* TTT Game */,
+				943D54402047F9AF004017E5 /* TTT GameTests */,
+				943D544B2047F9AF004017E5 /* TTT GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		943D542B2047F9AE004017E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943D543B2047F9AF004017E5 /* LaunchScreen.storyboard in Resources */,
+				943D545F2048044E004017E5 /* Grid.jpg in Resources */,
+				943D54632048045E004017E5 /* Nought.jpg in Resources */,
+				943D546120480457004017E5 /* Cross.jpg in Resources */,
+				943D54382047F9AF004017E5 /* Assets.xcassets in Resources */,
+				943D5465204857B2004017E5 /* beep.mp3 in Resources */,
+				943D54362047F9AF004017E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943D543F2047F9AF004017E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943D544A2047F9AF004017E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		943D54292047F9AE004017E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C8639F205D723900200F5F /* CategoryViewController.swift in Sources */,
+				94B4F38C204D422100B94C5D /* QuizViewController.swift in Sources */,
+				94B4F38E204D44A300B94C5D /* StartViewController.swift in Sources */,
+				943D54332047F9AF004017E5 /* ViewController.swift in Sources */,
+				943D54312047F9AE004017E5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943D543D2047F9AF004017E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943D54462047F9AF004017E5 /* TTT_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943D54482047F9AF004017E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943D54512047F9AF004017E5 /* TTT_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		943D54432047F9AF004017E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943D542C2047F9AE004017E5 /* TTT Game */;
+			targetProxy = 943D54422047F9AF004017E5 /* PBXContainerItemProxy */;
+		};
+		943D544E2047F9AF004017E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943D542C2047F9AE004017E5 /* TTT Game */;
+			targetProxy = 943D544D2047F9AF004017E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		943D54342047F9AF004017E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943D54352047F9AF004017E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		943D54392047F9AF004017E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943D543A2047F9AF004017E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		943D54532047F9AF004017E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		943D54542047F9AF004017E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		943D54562047F9AF004017E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TTT Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Lewis.TTT-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		943D54572047F9AF004017E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TTT Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Lewis.TTT-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		943D54592047F9AF004017E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TTT GameTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Lewis.TTT-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTT Game.app/TTT Game";
+			};
+			name = Debug;
+		};
+		943D545A2047F9AF004017E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TTT GameTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Lewis.TTT-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTT Game.app/TTT Game";
+			};
+			name = Release;
+		};
+		943D545C2047F9AF004017E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TTT GameUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Lewis.TTT-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TTT Game";
+			};
+			name = Debug;
+		};
+		943D545D2047F9AF004017E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TTT GameUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Lewis.TTT-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TTT Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		943D54282047F9AE004017E5 /* Build configuration list for PBXProject "TTT Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943D54532047F9AF004017E5 /* Debug */,
+				943D54542047F9AF004017E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943D54552047F9AF004017E5 /* Build configuration list for PBXNativeTarget "TTT Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943D54562047F9AF004017E5 /* Debug */,
+				943D54572047F9AF004017E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943D54582047F9AF004017E5 /* Build configuration list for PBXNativeTarget "TTT GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943D54592047F9AF004017E5 /* Debug */,
+				943D545A2047F9AF004017E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943D545B2047F9AF004017E5 /* Build configuration list for PBXNativeTarget "TTT GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943D545C2047F9AF004017E5 /* Debug */,
+				943D545D2047F9AF004017E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 943D54252047F9AE004017E5 /* Project object */;
+}
